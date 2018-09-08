@@ -1,0 +1,25 @@
+@import "../../assets/styles/colors.scss";
+
+ul.Tree {
+ list-style: none;
+}
+
+ul.Tree li {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ background: $color-green;
+ color: $color-white;
+ cursor: pointer;
+}
+
+ul.Tree li > * {
+ flex: 3 1 0;
+}
+ul.Tree li > span {
+ flex: 1 1 0;
+}
+
+.selected {
+ background: $color-pink !important;
+}

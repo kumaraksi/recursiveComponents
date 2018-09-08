@@ -1,0 +1,19 @@
+ul.Tree {
+  list-style: none; }
+
+ul.Tree li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #4caf50;
+  color: #fff;
+  cursor: pointer; }
+
+ul.Tree li > * {
+  flex: 3 1 0; }
+
+ul.Tree li > span {
+  flex: 1 1 0; }
+
+.selected {
+  background: #ec407a !important; }
